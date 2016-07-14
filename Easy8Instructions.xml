@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Cpu>
+<CpuOperands>
+    <OperandName>RA</OperandName>
+</CpuOperands>
+<CpuRegisters>
+    <CpuRegister>Z</CpuRegister>
+</CpuRegisters>    
+<CpuInstructionList>
+    <Instruction type="one_words" ov="NO">
+        <instructioName>STOP</instructioName>
+        <OperationList>
+        <operationCode>0x15</operationCode></OperationList>
+    </Instruction>
+    <Instruction type="two_words" ov="YES">
+        <instructioName>MOVEI</instructioName><OperationList>
+        <operationCode ovValue1="OV_RA" ovValue2="OV_VALUE">0x00</operationCode>
+        </OperationList>
+    </Instruction>
+    <Instruction type="two_words" ov="YES">
+        <instructioName>MOVE</instructioName><OperationList>
+            <operationCode ovValue1="OV_RA" ovValue2="OV_ADDR">0x01</operationCode>
+            <operationCode ovValue1="OV_ADDR" ovValue2="OV_RA">0x02</operationCode>
+        </OperationList>
+    </Instruction>
+    <Instruction type="two_words" ov="YES">
+        <instructioName>ADDI</instructioName><OperationList>
+            <operationCode ovValue1="OV_RA" ovValue2="OV_VALUE">0x03</operationCode>
+        </OperationList>
+    </Instruction>  
+    <Instruction type="two_words" ov="YES">
+        <instructioName>ADD</instructioName><OperationList>
+            <operationCode ovValue1="OV_RA" ovValue2="OV_ADDR">0x04</operationCode>
+        </OperationList>
+    </Instruction>
+    <Instruction type="two_words" ov="YES">
+        <instructioName>SUBI</instructioName><OperationList>
+            <operationCode ovValue1="OV_RA" ovValue2="OV_VALUE">0x05</operationCode>
+        </OperationList>
+    </Instruction>
+    <Instruction type="two_words" ov="YES">
+        <instructioName>SUB</instructioName><OperationList>
+            <operationCode ovValue1="OV_RA" ovValue2="OV_ADDR">0x06</operationCode>
+        </OperationList>
+    </Instruction>
+    <Instruction type="one_word" ov="YES">
+        <instructioName>INC</instructioName>
+        <OperationList>
+            <operationCode ovValue1="OV_RA">0x07</operationCode></OperationList>
+    </Instruction>
+    <Instruction type="one_word" ov="YES">
+        <instructioName>DEC</instructioName>
+        <OperationList>
+            <operationCode ovValue1="OV_RA">0x08</operationCode></OperationList>
+    </Instruction>
+    <Instruction type="two_words" ov="YES">
+        <instructioName>COMPAREI</instructioName><OperationList>
+            <operationCode ovValue1="OV_RA" ovValue2="OV_VALUE">0x09</operationCode>
+        </OperationList>
+    </Instruction>
+    <Instruction type="two_words" ov="YES">
+        <instructioName>COMPARE</instructioName><OperationList>
+            <operationCode ovValue1="OV_RA" ovValue2="OV_ADDR">0x0A</operationCode>
+        </OperationList>
+    </Instruction>
+    <Instruction type="one_word" ov="YES">
+        <instructioName>JUMP</instructioName>
+        <OperationList>
+        <operationCode ovValue1="OV_ADDR">0x0B</operationCode>
+        </OperationList>
+    </Instruction>
+    <Instruction type="one_word" ov="YES">
+        <instructioName>JLESS</instructioName>
+        <OperationList>
+            <operationCode ovValue1="OV_ADDR">0x0C</operationCode>
+        </OperationList>
+    </Instruction>
+    <Instruction type="one_word" ov="YES">
+        <instructioName>JGREATER</instructioName>
+        <OperationList>
+            <operationCode ovValue1="OV_ADDR">0x0D</operationCode>
+        </OperationList>
+    </Instruction>
+    <Instruction type="one_word" ov="YES">
+        <instructioName>JEQUAL</instructioName>
+        <OperationList>
+            <operationCode ovValue1="OV_ADDR">0x0E</operationCode>
+        </OperationList>
+    </Instruction>
+    <Instruction type="one_word" ov="YES">
+        <instructioName>PUSH</instructioName>
+        <OperationList>
+            <operationCode ovValue1="OV_RA">0x0F</operationCode>
+        </OperationList>
+    </Instruction>
+    <Instruction type="one_word" ov="YES">
+        <instructioName>POP</instructioName>
+        <OperationList>
+            <operationCode ovValue1="OV_RA">0x10</operationCode>
+        </OperationList>
+    </Instruction>
+    <Instruction type="one_word" ov="YES">
+        <instructioName>CALL</instructioName>
+        <OperationList>
+            <operationCode ovValue1="OV_ADDR">0x11</operationCode>
+        </OperationList>
+    </Instruction>
+    <Instruction type="one_word" ov="NO">
+        <instructioName>RET</instructioName>
+        <OperationList>
+            <operationCode>0x12</operationCode></OperationList>
+    </Instruction>
+    <Instruction type="one_word" ov="YES">
+        <instructioName>IN</instructioName>
+        <OperationList>
+            <operationCode ovValue1="OV_ADDR">0x13</operationCode>
+        </OperationList>
+    </Instruction>
+    <Instruction type="one_word" ov="YES">
+        <instructioName>OUT</instructioName>
+        <OperationList>
+            <operationCode ovValue1="OV_ADDR">0x14</operationCode>
+        </OperationList>
+    </Instruction>
+    
+</CpuInstructionList>
+</Cpu>

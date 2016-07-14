@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<installation version="1.0">
+    <info>
+        <appname>Simulator Easy8</appname>
+        <appversion>0.4</appversion>
+        <authors>
+            <author email="meir1274@gmail.com" name="Meir Kalter"/>
+        </authors>
+        <uninstaller name="Uninstaller.jar" write="yes"/>
+        <requiresjdk>no</requiresjdk>
+        <writeinstallationinformation>no</writeinstallationinformation>
+        <pack200/>
+        <run-privileged condition="izpack.windowsinstall.vista|izpack.windowsinstall.7|izpack.macinstall"/>
+    </info>
+    <guiprefs height="480" resizable="no" width="640">
+        <modifier key="useFlags" value="yes"/>
+        <modifier key="langDisplayType" value="native"/>
+    </guiprefs>
+    <locale>
+        <langpack iso3="eng"/>
+    </locale>
+    <resources>
+        <res id="shortcutSpec.xml" src="SimEasy__8.pjc_shortcutSpec.xml"/>
+        <res id="Unix_shortcutSpec.xml" src="SimEasy__8.pjc_Unix_shortcutSpec.xml"/>
+    </resources>
+    <panels>
+        <panel classname="CheckedHelloPanel"/>
+        <panel classname="PacksPanel"/>
+        <panel classname="TargetPanel"/>
+        <panel classname="InstallPanel"/>
+        <panel classname="ShortcutPanel"/>
+        <panel classname="SimpleFinishPanel"/>
+    </panels>
+    <variables>
+        <variable name="DesktopShortcutCheckboxEnabled" value="true"/>
+    </variables>
+    <packs>
+        <pack name="Install" preselected="yes" required="yes">
+            <description/>
+            <file override="update"
+                src="C:\AQP_Test\SimEasy8\target\SimEasy8-jar-with-dependencies.jar" targetdir="$INSTALL_PATH/"/>
+            <file override="update"
+                src="C:\AQP_Test\SimEasy8\target\Gui.bat" targetdir="$INSTALL_PATH/"/>
+            <file override="update"
+                src="C:\AQP_Test\SimEasy8\target\show.bat" targetdir="$INSTALL_PATH/"/>
+        </pack>
+    </packs>
+    <native name="ShellLink.dll" type="izpack"/>
+    <native name="ShellLink_x64.dll" type="izpack"/>
+</installation>

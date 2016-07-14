@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="Cpu">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="CpuOperands"/>
+        <xs:element ref="CpuRegisters"/>
+        <xs:element ref="CpuInstructionList"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CpuOperands">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="OperandName"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OperandName" type="xs:NCName"/>
+  <xs:element name="CpuRegisters">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="CpuRegister"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CpuRegister" type="xs:NCName"/>
+  <xs:element name="CpuInstructionList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="Instruction"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Instruction">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="instructioName"/>
+        <xs:element ref="OperationList"/>
+      </xs:sequence>
+      <xs:attribute name="ov" use="required" type="xs:NCName"/>
+      <xs:attribute name="type" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="instructioName" type="xs:NCName"/>
+  <xs:element name="OperationList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="operationCode"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="operationCode">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:NMTOKEN">
+          <xs:attribute name="ovValue1" type="xs:NCName"/>
+          <xs:attribute name="ovValue2" type="xs:NCName"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

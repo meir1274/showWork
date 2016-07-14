@@ -1,0 +1,1080 @@
+<?xml version="1.0"?>
+	<Table TabStructLastUpdDate="2015-12-30 13:12:10" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+		<TabMetaData>
+			<TabBasics>
+				<ExtendableInd>true</ExtendableInd>
+			</TabBasics>
+		</TabMetaData>
+		<TabColumns>
+			<Column ColName="L9_TAXED_AMOUNT">
+				<ColBasics>
+					<ColType>
+						<DmidRef RefName="AR1NUMB18_2"/>
+					</ColType>
+					<ColDisplayName>Taxed Amount</ColDisplayName>
+					<Customizable>false</Customizable>
+				</ColBasics>
+				<ColDocs>
+					<ColDescrip>Taxed amount.</ColDescrip>
+				</ColDocs>
+				<ColAuditData>
+					<ColCreDate>2006-10-18</ColCreDate>
+					<ColCreTime>09:59:52</ColCreTime>
+					<CreatedByBB>car9gdd</CreatedByBB>
+					<CreatedInVersion>v750</CreatedInVersion>
+					<ColSeqOrder>5</ColSeqOrder>
+				</ColAuditData>
+			</Column>
+			<Column ColName="L9_ESEL_AMOUNT">
+				<ColBasics>
+					<ColType>
+						<DmidRef RefName="AR1NUMB18_2"/>
+					</ColType>
+					<ColDisplayName>ESEL Amount</ColDisplayName>
+					<Customizable>false</Customizable>
+				</ColBasics>
+				<ColDocs>
+					<ColDescrip>ESEL Amount</ColDescrip>
+				</ColDocs>
+				<ColAuditData>
+					<ColCreDate>2006-12-04</ColCreDate>
+					<ColCreTime>18:18:12</ColCreTime>
+					<CreatedByBB>car9gdd</CreatedByBB>
+					<CreatedInVersion>v750</CreatedInVersion>
+					<ColSeqOrder>5</ColSeqOrder>
+				</ColAuditData>
+			</Column>
+			<Column ColName="L9_ESAL_AMOUNT">
+				<ColBasics>
+					<ColType>
+						<DmidRef RefName="AR1NUMB18_2"/>
+					</ColType>
+					<ColDisplayName>ESAL Amount</ColDisplayName>
+					<Customizable>false</Customizable>
+				</ColBasics>
+				<ColDocs>
+					<ColDescrip>ESAL Amount</ColDescrip>
+				</ColDocs>
+				<ColAuditData>
+					<ColCreDate>2006-12-04</ColCreDate>
+					<ColCreTime>18:18:25</ColCreTime>
+					<CreatedByBB>car9gdd</CreatedByBB>
+					<CreatedInVersion>v750</CreatedInVersion>
+					<ColSeqOrder>5</ColSeqOrder>
+				</ColAuditData>
+			</Column>
+			<Column ColName="L9_ASEL_AMOUNT">
+				<ColBasics>
+					<ColType>
+						<DmidRef RefName="AR1NUMB18_2"/>
+					</ColType>
+					<ColDisplayName>ASEL Amount</ColDisplayName>
+					<Customizable>false</Customizable>
+				</ColBasics>
+				<ColDocs>
+					<ColDescrip>ASEL Amount</ColDescrip>
+				</ColDocs>
+				<ColAuditData>
+					<ColCreDate>2006-12-04</ColCreDate>
+					<ColCreTime>18:18:42</ColCreTime>
+					<CreatedByBB>car9gdd</CreatedByBB>
+					<CreatedInVersion>v750</CreatedInVersion>
+					<ColSeqOrder>5</ColSeqOrder>
+				</ColAuditData>
+			</Column>
+			<Column ColName="L9_ASAL_AMOUNT">
+				<ColBasics>
+					<ColType>
+						<DmidRef RefName="AR1NUMB18_2"/>
+					</ColType>
+					<ColDisplayName>ASAL Amount</ColDisplayName>
+					<Customizable>false</Customizable>
+				</ColBasics>
+				<ColDocs>
+					<ColDescrip>ASAL Amount</ColDescrip>
+				</ColDocs>
+				<ColAuditData>
+					<ColCreDate>2006-12-04</ColCreDate>
+					<ColCreTime>18:19:05</ColCreTime>
+					<CreatedByBB>car9gdd</CreatedByBB>
+					<CreatedInVersion>v750</CreatedInVersion>
+					<ColSeqOrder>5</ColSeqOrder>
+				</ColAuditData>
+			</Column>
+			<Column ColName="L9_INTL_AMOUNT">
+				<ColBasics>
+					<ColType>
+						<DmidRef RefName="AR1NUMB18_2"/>
+					</ColType>
+					<ColDisplayName>International Amount</ColDisplayName>
+					<Customizable>false</Customizable>
+				</ColBasics>
+				<ColDocs>
+					<ColDescrip>International Amount
+</ColDescrip>
+				</ColDocs>
+				<ColAuditData>
+					<ColCreDate>2006-12-04</ColCreDate>
+					<ColCreTime>18:19:28</ColCreTime>
+					<CreatedByBB>car9gdd</CreatedByBB>
+					<CreatedInVersion>v750</CreatedInVersion>
+					<ColSeqOrder>5</ColSeqOrder>
+				</ColAuditData>
+			</Column>
+			<Column ColName="L9_RESOURCE_TYPE">
+				<ColBasics>
+					<ColType>
+						<DmidRef RefName="AR1CHAR4"/>
+					</ColType>
+					<ColDisplayName>Resource Type.</ColDisplayName>
+					<Customizable>false</Customizable>
+				</ColBasics>
+				<ColDocs>
+					<ColDescrip>Resource type.</ColDescrip>
+				</ColDocs>
+				<ColAuditData>
+					<ColCreDate>2006-12-04</ColCreDate>
+					<ColCreTime>18:22:57</ColCreTime>
+					<CreatedByBB>car9gdd</CreatedByBB>
+					<CreatedInVersion>v750</CreatedInVersion>
+					<ColSeqOrder>5</ColSeqOrder>
+				</ColAuditData>
+			</Column>
+			<Column ColName="L9_RESOURCE_VALUE">
+				<ColBasics>
+					<ColType>
+						<DmidRef RefName="AR1VARC15"/>
+					</ColType>
+					<ColDisplayName>Resource Value</ColDisplayName>
+					<Customizable>false</Customizable>
+				</ColBasics>
+				<ColDocs>
+					<ColDescrip>Resoruce ID
+</ColDescrip>
+				</ColDocs>
+				<ColAuditData>
+					<ColCreDate>2006-12-04</ColCreDate>
+					<ColCreTime>18:23:20</ColCreTime>
+					<CreatedByBB>car9gdd</CreatedByBB>
+					<CreatedInVersion>v750</CreatedInVersion>
+					<ColSeqOrder>5</ColSeqOrder>
+				</ColAuditData>
+			</Column>
+			<Column ColName="L9_OFFER_INSTANCE">
+				<ColBasics>
+					<ColType>
+						<DmidRef RefName="AR1NUMB9_0"/>
+					</ColType>
+					<ColDisplayName>Offer Instance</ColDisplayName>
+					<Customizable>false</Customizable>
+				</ColBasics>
+				<ColDocs>
+					<ColDescrip>Offer Instance</ColDescrip>
+				</ColDocs>
+				<ColAuditData>
+					<ColCreDate>2006-12-04</ColCreDate>
+					<ColCreTime>18:23:41</ColCreTime>
+					<CreatedByBB>car9gdd</CreatedByBB>
+					<CreatedInVersion>v750</CreatedInVersion>
+					<ColSeqOrder>5</ColSeqOrder>
+				</ColAuditData>
+			</Column>
+			<Column ColName="L9_PRODUCT_TYPE">
+				<ColBasics>
+					<ColType>
+						<DmidRef RefName="AR9PRODTYPE"/>
+					</ColType>
+					<ColDisplayName>Product Type</ColDisplayName>
+					<Customizable>false</Customizable>
+				</ColBasics>
+				<ColDocs>
+					<ColDescrip>The product type linked to the charge from Cingular
+</ColDescrip>
+				</ColDocs>
+				<ColAuditData>
+					<ColCreDate>2006-12-04</ColCreDate>
+					<ColCreTime>18:24:08</ColCreTime>
+					<CreatedByBB>car9gdd</CreatedByBB>
+					<CreatedInVersion>v750</CreatedInVersion>
+					<ColSeqOrder>5</ColSeqOrder>
+				</ColAuditData>
+			</Column>
+			<Column ColName="L9_PRODUCT_ID">
+				<ColBasics>
+					<ColType>
+						<DmidRef RefName="AR1VARC16"/>
+					</ColType>
+					<ColDisplayName>Product Id</ColDisplayName>
+					<Customizable>false</Customizable>
+				</ColBasics>
+				<ColDocs>
+					<ColDescrip>Product Id for product level credits
+</ColDescrip>
+				</ColDocs>
+				<ColAuditData>
+					<ColCreDate>2006-12-04</ColCreDate>
+					<ColCreTime>18:24:40</ColCreTime>
+					<CreatedByBB>car9gdd</CreatedByBB>
+					<CreatedInVersion>v750</CreatedInVersion>
+					<ColSeqOrder>5</ColSeqOrder>
+				</ColAuditData>
+			</Column>
+			<Column ColName="L9_OBLIGATION_ID">
+				<ColBasics>
+					<ColType>
+						<DmidRef RefName="AR9NUMB8_0"/>
+					</ColType>
+					<ColDisplayName>Obligatiomn Id</ColDisplayName>
+					<Customizable>false</Customizable>
+				</ColBasics>
+				<ColDocs>
+					<ColDescrip>obligation id from CW
+</ColDescrip>
+				</ColDocs>
+				<ColAuditData>
+					<ColCreDate>2007-02-05</ColCreDate>
+					<ColCreTime>16:07:52</ColCreTime>
+					<CreatedByBB>car9gdd</CreatedByBB>
+					<CreatedInVersion>v750</CreatedInVersion>
+					<ColSeqOrder>5</ColSeqOrder>
+				</ColAuditData>
+			</Column>
+			<Column ColName="L9_OFFER_ID">
+				<ColBasics>
+					<ColType>
+						<DmidRef RefName="AR9NUMB15_0"/>
+					</ColType>
+					<ColDisplayName>Offer Id</ColDisplayName>
+					<Customizable>false</Customizable>
+				</ColBasics>
+				<ColDocs>
+					<ColDescrip>Offer Id</ColDescrip>
+				</ColDocs>
+				<ColAuditData>
+					<ColCreDate>2007-02-12</ColCreDate>
+					<ColCreTime>18:13:57</ColCreTime>
+					<CreatedByBB>car9gdd</CreatedByBB>
+					<CreatedInVersion>v750</CreatedInVersion>
+					<ColSeqOrder>5</ColSeqOrder>
+				</ColAuditData>
+			</Column>
+			<Column ColName="L9_INSTALLMENT_IND">
+				<ColBasics>
+					<ColType>
+						<DmidRef RefName="AR1CHAR1"/>
+					</ColType>
+					<ColDisplayName>Installment Ind</ColDisplayName>
+					<Customizable>false</Customizable>
+				</ColBasics>
+				<ColDocs>
+					<ColDescrip>Indicate whether this charge is an installment charge.</ColDescrip>
+				</ColDocs>
+				<ColAuditData>
+					<ColCreDate>2007-11-15</ColCreDate>
+					<ColCreTime>08:52:20</ColCreTime>
+					<CreatedByBB>car9gdd</CreatedByBB>
+					<CreatedInVersion>v750</CreatedInVersion>
+					<ColSeqOrder>5</ColSeqOrder>
+				</ColAuditData>
+			</Column>
+			<Column ColName="L9_INSTALLMENT_NUM">
+				<ColBasics>
+					<ColType>
+						<DmidRef RefName="AR1NUMB2_0"/>
+					</ColType>
+					<ColDisplayName>Installment Number</ColDisplayName>
+					<Customizable>false</Customizable>
+				</ColBasics>
+				<ColDocs>
+					<ColDescrip>Indicate the number of the installment</ColDescrip>
+				</ColDocs>
+				<ColAuditData>
+					<ColCreDate>2007-11-15</ColCreDate>
+					<ColCreTime>08:53:41</ColCreTime>
+					<CreatedByBB>car9gdd</CreatedByBB>
+					<CreatedInVersion>v750</CreatedInVersion>
+					<ColSeqOrder>5</ColSeqOrder>
+				</ColAuditData>
+			</Column>
+			<Column ColName="L9_TOT_NUM_OF_INST">
+				<ColBasics>
+					<ColType>
+						<DmidRef RefName="AR1NUMB2_0"/>
+					</ColType>
+					<ColDisplayName>Total Number Of Installments</ColDisplayName>
+					<Customizable>false</Customizable>
+				</ColBasics>
+				<ColDocs>
+					<ColDescrip>Indicate total number of installments for the installment charge</ColDescrip>
+				</ColDocs>
+				<ColAuditData>
+					<ColCreDate>2007-11-15</ColCreDate>
+					<ColCreTime>08:54:18</ColCreTime>
+					<CreatedByBB>car9gdd</CreatedByBB>
+					<CreatedInVersion>v750</CreatedInVersion>
+					<ColSeqOrder>5</ColSeqOrder>
+				</ColAuditData>
+			</Column>
+			<Column ColName="L9_INST_TOTAL_CHG_AMT">
+				<ColBasics>
+					<ColType>
+						<DmidRef RefName="AR1NUMB18_2"/>
+					</ColType>
+					<ColDisplayName>Installment Total Charge Amount</ColDisplayName>
+					<Customizable>false</Customizable>
+				</ColBasics>
+				<ColDocs>
+					<ColDescrip>The total rate of the charge before dividing to installments.</ColDescrip>
+				</ColDocs>
+				<ColAuditData>
+					<ColCreDate>2007-11-15</ColCreDate>
+					<ColCreTime>08:55:02</ColCreTime>
+					<CreatedByBB>car9gdd</CreatedByBB>
+					<CreatedInVersion>v750</CreatedInVersion>
+					<ColSeqOrder>5</ColSeqOrder>
+				</ColAuditData>
+			</Column>
+			<Column ColName="L9_CHARGE_SOURCE_SEQ_NO">
+				<ColBasics>
+					<ColType>
+						<DmidRef RefName="AR1NUMB12_0"/>
+					</ColType>
+					<ColDisplayName>charge source sequence </ColDisplayName>
+					<Customizable>false</Customizable>
+				</ColBasics>
+				<ColDocs>
+					<ColDescrip>The charge source sequence number from invoicing</ColDescrip>
+				</ColDocs>
+				<ColAuditData>
+					<ColCreDate>2008-04-07</ColCreDate>
+					<ColCreTime>13:07:00</ColCreTime>
+					<CreatedByBB>car9gdd</CreatedByBB>
+					<CreatedInVersion>v750</CreatedInVersion>
+					<ColSeqOrder>5</ColSeqOrder>
+				</ColAuditData>
+			</Column>
+			<Column ColName="L9_BILL_IGNORE_IND">
+				<ColBasics>
+					<ColType>
+						<DmidRef RefName="YESNOIND"/>
+					</ColType>
+					<Customizable>false</Customizable>
+				</ColBasics>
+				<ColDocs>
+					<ColDescrip>Indicates invoicing whether to ignore this charge so it will not be extracted.</ColDescrip>
+				</ColDocs>
+				<ColAuditData>
+					<ColCreDate>2008-05-11</ColCreDate>
+					<ColCreTime>17:43:33</ColCreTime>
+					<CreatedByBB>car9gdd</CreatedByBB>
+					<CreatedInVersion>v750</CreatedInVersion>
+					<ColSeqOrder>5</ColSeqOrder>
+				</ColAuditData>
+			</Column>
+			<Column ColName="L9_EXT_IND">
+				<ColBasics>
+					<ColType>
+						<DmidRef RefName="AR1CHAR1"/>
+					</ColType>
+					<ColDisplayName>Ext Ind</ColDisplayName>
+					<Customizable>false</Customizable>
+				</ColBasics>
+				<ColDocs>
+					<ColDescrip>Valid Values: 
+Q - Qpass
+C - Compass
+P - 3PP
+null</ColDescrip>
+				</ColDocs>
+				<ColAuditData>
+					<ColCreDate>2010-11-09</ColCreDate>
+					<ColCreTime>15:21:35</ColCreTime>
+					<CreatedByBB>car9gdd</CreatedByBB>
+					<CreatedInVersion>v750</CreatedInVersion>
+					<ColSeqOrder>5</ColSeqOrder>
+				</ColAuditData>
+			</Column>
+			<Column ColName="L9_SUB_MARKET">
+				<ColBasics>
+					<ColType>
+						<DmidRef RefName="AR1VARC5"/>
+					</ColType>
+					<ColDisplayName>Sub Market</ColDisplayName>
+					<Customizable>false</Customizable>
+				</ColBasics>
+				<ColDocs>
+					<ColDescrip>The sub-market to which subscriber belongs</ColDescrip>
+				</ColDocs>
+				<ColAuditData>
+					<ColCreDate>2010-11-04</ColCreDate>
+					<ColCreTime>16:58:29</ColCreTime>
+					<CreatedByBB>car9gdd</CreatedByBB>
+					<CreatedInVersion>v750</CreatedInVersion>
+					<ColSeqOrder>5</ColSeqOrder>
+				</ColAuditData>
+			</Column>
+			<Column ColName="L9_EXTERNAL_ID">
+				<ColBasics>
+					<ColType>
+						<DmidRef RefName="AR1VARC100"/>
+					</ColType>
+					<ColDisplayName>External Id</ColDisplayName>
+					<Customizable>false</Customizable>
+				</ColBasics>
+				<ColDocs>
+					<ColDescrip>CTN for Mobile subscribers</ColDescrip>
+				</ColDocs>
+				<ColAuditData>
+					<ColCreDate>2010-11-22</ColCreDate>
+					<ColCreTime>18:10:34</ColCreTime>
+					<CreatedByBB>car9gdd</CreatedByBB>
+					<CreatedInVersion>v750</CreatedInVersion>
+					<ColSeqOrder>5</ColSeqOrder>
+				</ColAuditData>
+			</Column>
+			<Column ColName="L9_SUBSCRIBER_NO">
+				<ColBasics>
+					<ColType>
+						<DmidRef RefName="AR1NUMB12_0"/>
+					</ColType>
+					<ColDisplayName>Subscriber Number</ColDisplayName>
+					<Customizable>false</Customizable>
+				</ColBasics>
+				<ColAuditData>
+					<ColCreDate>2010-11-23</ColCreDate>
+					<ColCreTime>15:25:24</ColCreTime>
+					<CreatedByBB>car9gdd</CreatedByBB>
+					<CreatedInVersion>v750</CreatedInVersion>
+					<ColSeqOrder>5</ColSeqOrder>
+				</ColAuditData>
+			</Column>
+			<Column ColName="L9_MOBILITY_AMT">
+				<ColBasics>
+					<ColType>
+						<DmidRef RefName="AR1NUMB18_2"/>
+					</ColType>
+					<Mandatory>true</Mandatory>
+					<Customizable>false</Customizable>
+				</ColBasics>
+				<ColDocs>
+					<ColDescrip>Amount calculate for Mobility</ColDescrip>
+				</ColDocs>
+				<ColAuditData>
+					<ColCreDate>2011-01-27</ColCreDate>
+					<ColCreTime>12:50:29</ColCreTime>
+					<CreatedByBB>car9gdd</CreatedByBB>
+					<CreatedInVersion>v750</CreatedInVersion>
+					<ColSeqOrder>5</ColSeqOrder>
+				</ColAuditData>
+			</Column>
+			<Column ColName="L9_UVERSE_AMT">
+				<ColBasics>
+					<ColType>
+						<DmidRef RefName="AR1NUMB18_2"/>
+					</ColType>
+					<Mandatory>true</Mandatory>
+					<Customizable>false</Customizable>
+				</ColBasics>
+				<ColDocs>
+					<ColDescrip>Amount calculate for Uverse</ColDescrip>
+				</ColDocs>
+				<ColAuditData>
+					<ColCreDate>2011-01-27</ColCreDate>
+					<ColCreTime>12:51:09</ColCreTime>
+					<CreatedByBB>car9gdd</CreatedByBB>
+					<CreatedInVersion>v750</CreatedInVersion>
+					<ColSeqOrder>5</ColSeqOrder>
+				</ColAuditData>
+			</Column>
+			<Column ColName="L9_BUNDLE_ID">
+				<ColBasics>
+					<ColType>
+						<DmidRef RefName="AR1VARC20"/>
+					</ColType>
+					<Customizable>false</Customizable>
+				</ColBasics>
+				<ColDocs>
+					<ColDescrip>BUNDLE_ID</ColDescrip>
+				</ColDocs>
+				<ColAuditData>
+					<ColCreDate>2011-01-27</ColCreDate>
+					<ColCreTime>12:52:44</ColCreTime>
+					<CreatedByBB>car9gdd</CreatedByBB>
+					<CreatedInVersion>v750</CreatedInVersion>
+					<ColSeqOrder>5</ColSeqOrder>
+				</ColAuditData>
+			</Column>
+			<Column ColName="L9_ACTV_OFFER_ID">
+				<ColBasics>
+					<ColType>
+						<DmidRef RefName="AR1NUMB9_0"/>
+					</ColType>
+					<Customizable>false</Customizable>
+				</ColBasics>
+				<ColAuditData>
+					<ColCreDate>2011-02-01</ColCreDate>
+					<ColCreTime>14:33:44</ColCreTime>
+					<CreatedByBB>car9gdd</CreatedByBB>
+					<CreatedInVersion>v750</CreatedInVersion>
+					<ColSeqOrder>5</ColSeqOrder>
+				</ColAuditData>
+			</Column>
+			<Column ColName="L9_CRD_ID">
+				<ColBasics>
+					<ColType>
+						<DmidRef RefName="AR1CRD_ID"/>
+					</ColType>
+					<Customizable>false</Customizable>
+				</ColBasics>
+				<ColDocs>
+					<ColDescrip>Used for technical charges</ColDescrip>
+				</ColDocs>
+				<ColAuditData>
+					<ColCreDate>2011-02-24</ColCreDate>
+					<ColCreTime>16:13:10</ColCreTime>
+					<CreatedByBB>car9gdd</CreatedByBB>
+					<CreatedInVersion>v750</CreatedInVersion>
+					<ColSeqOrder>5</ColSeqOrder>
+				</ColAuditData>
+			</Column>
+			<Column ColName="L9_UVERSE_TAX_AMT">
+				<ColBasics>
+					<ColType>
+						<DmidRef RefName="AR1NUMB18_2"/>
+					</ColType>
+					<Mandatory>true</Mandatory>
+					<Customizable>false</Customizable>
+				</ColBasics>
+				<ColAuditData>
+					<ColCreDate>2011-03-02</ColCreDate>
+					<ColCreTime>10:56:46</ColCreTime>
+					<CreatedByBB>car9gdd</CreatedByBB>
+					<CreatedInVersion>v750</CreatedInVersion>
+					<ColSeqOrder>5</ColSeqOrder>
+				</ColAuditData>
+			</Column>
+			<Column ColName="L9_MOBILITY_TAX_AMT">
+				<ColBasics>
+					<ColType>
+						<DmidRef RefName="AR1NUMB18_2"/>
+					</ColType>
+					<Mandatory>true</Mandatory>
+					<Customizable>false</Customizable>
+				</ColBasics>
+				<ColAuditData>
+					<ColCreDate>2011-03-02</ColCreDate>
+					<ColCreTime>10:57:22</ColCreTime>
+					<CreatedByBB>car9gdd</CreatedByBB>
+					<CreatedInVersion>v750</CreatedInVersion>
+					<ColSeqOrder>5</ColSeqOrder>
+				</ColAuditData>
+			</Column>
+			<Column ColName="L9_EXT_CHARGE_ID">
+				<ColBasics>
+					<ColType>
+						<DmidRef RefName="AR1VARC18"/>
+					</ColType>
+					<Customizable>false</Customizable>
+				</ColBasics>
+				<ColDocs>
+					<ColDescrip>TLG charge id</ColDescrip>
+				</ColDocs>
+				<ColAuditData>
+					<ColCreDate>2011-03-03</ColCreDate>
+					<ColCreTime>12:59:39</ColCreTime>
+					<CreatedByBB>car9gdd</CreatedByBB>
+					<CreatedInVersion>v750</CreatedInVersion>
+					<ColSeqOrder>5</ColSeqOrder>
+				</ColAuditData>
+			</Column>
+			<Column ColName="L9_DEPOSIT_ID">
+				<ColBasics>
+					<ColType>
+						<DmidRef RefName="AR1NUMB12_0"/>
+					</ColType>
+					<Customizable>false</Customizable>
+				</ColBasics>
+				<ColDocs>
+					<ColDescrip>The deposit unique identifier in M-TLG.</ColDescrip>
+				</ColDocs>
+				<ColAuditData>
+					<ColCreDate>2011-03-03</ColCreDate>
+					<ColCreTime>13:01:24</ColCreTime>
+					<CreatedByBB>car9gdd</CreatedByBB>
+					<CreatedInVersion>v750</CreatedInVersion>
+					<ColSeqOrder>5</ColSeqOrder>
+				</ColAuditData>
+			</Column>
+			<Column ColName="L9_UVERSE_RESTR_AMT">
+				<ColBasics>
+					<ColType>
+						<DmidRef RefName="AR1NUMB18_2"/>
+					</ColType>
+					<Customizable>false</Customizable>
+				</ColBasics>
+				<ColDocs>
+					<ColDescrip>Restricted charge amount for Uverse</ColDescrip>
+				</ColDocs>
+				<ColAuditData>
+					<ColCreDate>2011-04-18</ColCreDate>
+					<ColCreTime>09:36:04</ColCreTime>
+					<CreatedByBB>car9gdd</CreatedByBB>
+					<CreatedInVersion>v750</CreatedInVersion>
+					<ColSeqOrder>5</ColSeqOrder>
+				</ColAuditData>
+			</Column>
+			<Column ColName="L9_MOBILITY_RESTR_AMT">
+				<ColBasics>
+					<ColType>
+						<DmidRef RefName="AR1NUMB18_2"/>
+					</ColType>
+					<Customizable>false</Customizable>
+				</ColBasics>
+				<ColDocs>
+					<ColDescrip>Restricted charge amount for Mobility</ColDescrip>
+				</ColDocs>
+				<ColAuditData>
+					<ColCreDate>2011-04-18</ColCreDate>
+					<ColCreTime>09:36:32</ColCreTime>
+					<CreatedByBB>car9gdd</CreatedByBB>
+					<CreatedInVersion>v750</CreatedInVersion>
+					<ColSeqOrder>5</ColSeqOrder>
+				</ColAuditData>
+			</Column>
+			<Column ColName="L9_TELCO_COMP_CODE">
+				<ColBasics>
+					<ColType>
+						<DmidRef RefName="AR1VARC4"/>
+					</ColType>
+					<ColDisplayName>Telecom Company Code</ColDisplayName>
+					<Customizable>false</Customizable>
+				</ColBasics>
+				<ColDocs>
+					<ColDescrip>The Telecommunication Company Code</ColDescrip>
+				</ColDocs>
+				<ColAuditData>
+					<ColCreDate>2011-05-15</ColCreDate>
+					<ColCreTime>19:03:38</ColCreTime>
+					<CreatedByBB>car9gdd</CreatedByBB>
+					<CreatedInVersion>v750</CreatedInVersion>
+					<ColSeqOrder>5</ColSeqOrder>
+				</ColAuditData>
+			</Column>
+			<Column ColName="L9_DATA_ONLY_IND">
+				<ColBasics>
+					<ColType>
+						<DmidRef RefName="AR1CHAR1"/>
+					</ColType>
+					<Customizable>false</Customizable>
+				</ColBasics>
+				<ColDocs>
+					<ColDescrip>Indicates if the Charge is for Data Only Plan.
+Valid Values:
+D or NULL</ColDescrip>
+				</ColDocs>
+				<ColAuditData>
+					<ColCreDate>2011-10-05</ColCreDate>
+					<ColCreTime>11:28:27</ColCreTime>
+					<CreatedByBB>car9gdd</CreatedByBB>
+					<CreatedInVersion>v750</CreatedInVersion>
+					<ColSeqOrder>5</ColSeqOrder>
+				</ColAuditData>
+			</Column>
+			<Column ColName="L9_GEO_CODE">
+				<ColBasics>
+					<ColType>
+						<DmidRef RefName="AR9VARC9"/>
+					</ColType>
+					<Customizable>false</Customizable>
+				</ColBasics>
+				<ColDocs>
+					<ColDescrip>Geo code</ColDescrip>
+				</ColDocs>
+				<ColAuditData>
+					<ColCreDate>2012-12-19</ColCreDate>
+					<ColCreTime>11:02:29</ColCreTime>
+					<CreatedByBB>car9gdd</CreatedByBB>
+					<CreatedInVersion>v750</CreatedInVersion>
+					<ColSeqOrder>5</ColSeqOrder>
+				</ColAuditData>
+			</Column>
+			<Column ColName="L9_INST_CHG_ID">
+				<ColBasics>
+					<ColType>
+						<DmidRef RefName="AR9NUMB15_0"/>
+					</ColType>
+					<Customizable>false</Customizable>
+				</ColBasics>
+				<ColDocs>
+					<ColDescrip>Uniquely Installment Charge Id.</ColDescrip>
+				</ColDocs>
+				<ColAuditData>
+					<ColCreDate>2014-02-13</ColCreDate>
+					<ColCreTime>10:41:30</ColCreTime>
+					<CreatedByBB>car9gdd</CreatedByBB>
+					<CreatedInVersion>v750</CreatedInVersion>
+					<ColSeqOrder>5</ColSeqOrder>
+				</ColAuditData>
+			</Column>
+			<Column ColName="L9_TLG_INST_ID">
+				<ColBasics>
+					<ColType>
+						<DmidRef RefName="AR9NUMB15_0"/>
+					</ColType>
+					<Customizable>false</Customizable>
+				</ColBasics>
+				<ColDocs>
+					<ColDescrip>Uniquely identity of the Installment Plan.</ColDescrip>
+				</ColDocs>
+				<ColAuditData>
+					<ColCreDate>2014-02-13</ColCreDate>
+					<ColCreTime>10:42:13</ColCreTime>
+					<CreatedByBB>car9gdd</CreatedByBB>
+					<CreatedInVersion>v750</CreatedInVersion>
+					<ColSeqOrder>5</ColSeqOrder>
+				</ColAuditData>
+			</Column>
+			<Column ColName="L9_NXT_IND">
+				<ColBasics>
+					<ColType>
+						<DmidRef RefName="AR1CHAR1"/>
+					</ColType>
+					<Customizable>false</Customizable>
+				</ColBasics>
+				<ColDocs>
+					<ColDescrip>Holds value &apos;R&apos; for regular NEXT IP charges</ColDescrip>
+				</ColDocs>
+				<ColAuditData>
+					<ColCreDate>2014-03-19</ColCreDate>
+					<ColCreTime>17:37:47</ColCreTime>
+					<CreatedByBB>car9gdd</CreatedByBB>
+					<CreatedInVersion>v750</CreatedInVersion>
+					<ColSeqOrder>5</ColSeqOrder>
+				</ColAuditData>
+			</Column>
+			<Column ColName="L9_CONV_ORIG">
+				<ColBasics>
+					<ColType>
+						<DmidRef RefName="AR1CHAR1"/>
+					</ColType>
+					<Customizable>false</Customizable>
+				</ColBasics>
+				<ColDocs>
+					<ColDescrip>Holds value &apos;T&apos;</ColDescrip>
+				</ColDocs>
+				<ColAuditData>
+					<ColCreDate>2014-03-19</ColCreDate>
+					<ColCreTime>17:39:32</ColCreTime>
+					<CreatedByBB>car9gdd</CreatedByBB>
+					<CreatedInVersion>v750</CreatedInVersion>
+					<ColSeqOrder>5</ColSeqOrder>
+				</ColAuditData>
+			</Column>
+			<Column ColName="L9_CIC">
+				<ColBasics>
+					<ColType>
+						<DmidRef RefName="AR1VARC4"/>
+					</ColType>
+					<Customizable>false</Customizable>
+				</ColBasics>
+				<ColAuditData>
+					<ColCreDate>2014-04-21</ColCreDate>
+					<ColCreTime>11:01:51</ColCreTime>
+					<CreatedByBB>car9gdd</CreatedByBB>
+					<CreatedInVersion>v750</CreatedInVersion>
+					<ColSeqOrder>5</ColSeqOrder>
+				</ColAuditData>
+			</Column>
+			<Column ColName="L9_BOOST_COMPANY_CODE">
+				<ColBasics>
+					<ColType>
+						<DmidRef RefName="AR1VARC4"/>
+					</ColType>
+					<Customizable>false</Customizable>
+				</ColBasics>
+				<ColAuditData>
+					<ColCreDate>2014-04-21</ColCreDate>
+					<ColCreTime>11:04:25</ColCreTime>
+					<CreatedByBB>car9gdd</CreatedByBB>
+					<CreatedInVersion>v750</CreatedInVersion>
+					<ColSeqOrder>5</ColSeqOrder>
+				</ColAuditData>
+			</Column>
+			<Column ColName="L9_DEALER_CODE">
+				<ColBasics>
+					<ColType>
+						<DmidRef RefName="AR1VARC8"/>
+					</ColType>
+					<Customizable>false</Customizable>
+				</ColBasics>
+				<ColAuditData>
+					<ColCreDate>2014-05-12</ColCreDate>
+					<ColCreTime>18:26:43</ColCreTime>
+					<CreatedByBB>car9gdd</CreatedByBB>
+					<CreatedInVersion>v750</CreatedInVersion>
+					<ColSeqOrder>5</ColSeqOrder>
+				</ColAuditData>
+			</Column>
+			<Column ColName="L9_DEFERRAL_IND">
+				<ColBasics>
+					<ColType>
+						<DmidRef RefName="AR1VARC1"/>
+					</ColType>
+					<Customizable>false</Customizable>
+				</ColBasics>
+				<ColAuditData>
+					<ColCreDate>2014-07-15</ColCreDate>
+					<ColCreTime>18:10:15</ColCreTime>
+					<CreatedByBB>car9gdd</CreatedByBB>
+					<CreatedInVersion>v750</CreatedInVersion>
+					<ColSeqOrder>5</ColSeqOrder>
+				</ColAuditData>
+			</Column>
+			<Column ColName="L9_PACKAGE_ID">
+				<ColBasics>
+					<ColType>
+						<DmidRef RefName="AR1NUMB12_0"/>
+					</ColType>
+					<Customizable>false</Customizable>
+				</ColBasics>
+				<ColDocs>
+					<ColDescrip>Indicates if the charge is related to a package</ColDescrip>
+				</ColDocs>
+				<ColAuditData>
+					<ColCreDate>2013-10-22</ColCreDate>
+					<ColCreTime>15:09:39</ColCreTime>
+					<CreatedByBB>car9gdd</CreatedByBB>
+					<CreatedInVersion>v750</CreatedInVersion>
+					<ColSeqOrder>5</ColSeqOrder>
+				</ColAuditData>
+			</Column>
+			<Column ColName="L9_TOTAL_PKG_IND">
+				<ColBasics>
+					<ColType>
+						<DmidRef RefName="AR1CHAR1"/>
+					</ColType>
+					<Customizable>false</Customizable>
+				</ColBasics>
+				<ColDocs>
+					<ColDescrip>This field will indicate whether the charge is the dummy Package charge</ColDescrip>
+				</ColDocs>
+				<ColAuditData>
+					<ColCreDate>2013-10-22</ColCreDate>
+					<ColCreTime>15:24:14</ColCreTime>
+					<CreatedByBB>car9gdd</CreatedByBB>
+					<CreatedInVersion>v750</CreatedInVersion>
+					<ColSeqOrder>5</ColSeqOrder>
+				</ColAuditData>
+			</Column>
+			<Column ColName="L9_INSTALLMENT_ELIGIBILITY">
+				<ColBasics>
+					<ColType>
+						<DmidRef RefName="AR1CHAR1"/>
+					</ColType>
+					<Customizable>false</Customizable>
+				</ColBasics>
+				<ColDocs>
+					<ColDescrip>Installment eligibility indicator</ColDescrip>
+				</ColDocs>
+				<ColAuditData>
+					<ColCreDate>2014-08-05</ColCreDate>
+					<ColCreTime>18:02:20</ColCreTime>
+					<CreatedByBB>car9gdd</CreatedByBB>
+					<CreatedInVersion>v750</CreatedInVersion>
+					<ColSeqOrder>5</ColSeqOrder>
+				</ColAuditData>
+			</Column>
+			<Column ColName="L9_MIN_INSTALLMENT_NUM">
+				<ColBasics>
+					<ColType>
+						<DmidRef RefName="AR1NUMB2_0"/>
+					</ColType>
+					<Customizable>false</Customizable>
+				</ColBasics>
+				<ColDocs>
+					<ColDescrip>Minimum number of installments</ColDescrip>
+				</ColDocs>
+				<ColAuditData>
+					<ColCreDate>2014-08-05</ColCreDate>
+					<ColCreTime>18:04:36</ColCreTime>
+					<CreatedByBB>car9gdd</CreatedByBB>
+					<CreatedInVersion>v750</CreatedInVersion>
+					<ColSeqOrder>5</ColSeqOrder>
+				</ColAuditData>
+			</Column>
+			<Column ColName="L9_MAX_INSTALLMENT_NUM">
+				<ColBasics>
+					<ColType>
+						<DmidRef RefName="AR1NUMB2_0"/>
+					</ColType>
+					<Customizable>false</Customizable>
+				</ColBasics>
+				<ColDocs>
+					<ColDescrip>Maximum number of installments</ColDescrip>
+				</ColDocs>
+				<ColAuditData>
+					<ColCreDate>2014-08-05</ColCreDate>
+					<ColCreTime>18:05:13</ColCreTime>
+					<CreatedByBB>car9gdd</CreatedByBB>
+					<CreatedInVersion>v750</CreatedInVersion>
+					<ColSeqOrder>5</ColSeqOrder>
+				</ColAuditData>
+			</Column>
+			<Column ColName="L9_ADJ_BAL_IND">
+				<ColBasics>
+					<ColType>
+						<DmidRef RefName="AR1VARC3"/>
+					</ColType>
+					<Customizable>false</Customizable>
+				</ColBasics>
+				<ColAuditData>
+					<ColCreDate>2015-03-23</ColCreDate>
+					<ColCreTime>15:05:30</ColCreTime>
+					<CreatedByBB>car9gdd</CreatedByBB>
+					<CreatedInVersion>v2000</CreatedInVersion>
+					<ColSeqOrder>5</ColSeqOrder>
+				</ColAuditData>
+			</Column>
+			<Column ColName="L9_TCORP_COMPANY_CODE">
+				<ColBasics>
+					<ColType>
+						<DmidRef RefName="AR1VARC4"/>
+					</ColType>
+					<Customizable>false</Customizable>
+				</ColBasics>
+				<ColDocs>
+					<ColDescrip>T-corp company code. It will have value as Q90A for OTT charges</ColDescrip>
+				</ColDocs>
+				<ColAuditData>
+					<ColCreDate>2015-08-13</ColCreDate>
+					<ColCreTime>14:00:43</ColCreTime>
+					<CreatedByBB>car9gdd</CreatedByBB>
+					<CreatedInVersion>v2000</CreatedInVersion>
+					<ColSeqOrder>5</ColSeqOrder>
+				</ColAuditData>
+			</Column>
+			<Column ColName="L9_IEPS_AMOUNT">
+				<ColBasics>
+					<ColType>
+						<DmidRef RefName="AR1AMOUNT"/>
+					</ColType>
+					<Customizable>false</Customizable>
+				</ColBasics>
+				<ColDocs>
+					<ColDescrip>Mexico field for IEPS amount.
+Will be populated by Inv. Receipt process and used by GL</ColDescrip>
+				</ColDocs>
+				<ColAuditData>
+					<ColCreDate>2015-12-30</ColCreDate>
+					<ColCreTime>13:11:58</ColCreTime>
+					<CreatedByBB>car9gdd</CreatedByBB>
+					<CreatedInVersion>v200_0</CreatedInVersion>
+					<ColSeqOrder>5</ColSeqOrder>
+				</ColAuditData>
+			</Column>
+		</TabColumns>
+		<TabIndxes>
+			<TabIndx IxName="AR1_CHARGES_L9_1IX">
+				<IxType>Not Unique</IxType>
+				<ColinIx ColRef="BILLING_ARRANGEMENT_ID" SortingOrder="ASC"/>
+				<IxPartitions>
+					<IxLevel>Local</IxLevel>
+					<PartitionType>Static</PartitionType>
+					<IxPartitionStrategy>Range</IxPartitionStrategy>
+				</IxPartitions>
+			</TabIndx>
+			<TabIndx IxName="AR1_CHARGES_L9_2IX">
+				<IxType>Not Unique</IxType>
+				<ColinIx ColRef="L9_CHARGE_SOURCE_SEQ_NO" SortingOrder="ASC"/>
+				<IxPartitions>
+					<IxLevel>Local</IxLevel>
+					<PartitionType>Static</PartitionType>
+					<IxPartitionStrategy>Range</IxPartitionStrategy>
+				</IxPartitions>
+			</TabIndx>
+			<TabIndx IxName="AR1_CHARGES_L9_3IX">
+				<IxType>Not Unique</IxType>
+				<ColinIx ColRef="SYS_CREATION_DATE" SortingOrder="ASC"/>
+				<IxPartitions>
+					<IxLevel>Local</IxLevel>
+					<PartitionType>Static</PartitionType>
+					<IxPartitionStrategy>Range</IxPartitionStrategy>
+				</IxPartitions>
+			</TabIndx>
+			<TabIndx IxName="AR1_CHARGES_L9_4IX">
+				<IxType>Not Unique</IxType>
+				<ColinIx ColRef="SYS_UPDATE_DATE" SortingOrder="ASC"/>
+				<IxPartitions>
+					<IxLevel>Local</IxLevel>
+					<PartitionType>Static</PartitionType>
+					<IxPartitionStrategy>Range</IxPartitionStrategy>
+				</IxPartitions>
+			</TabIndx>
+			<TabIndx IxName="AR1_CHARGES_L9_5IX">
+				<IxType>Not Unique</IxType>
+				<IxDescrip>use for query</IxDescrip>
+				<ColinIx ColRef="L9_EXT_CHARGE_ID" SortingOrder="ASC"/>
+				<IxPartitions>
+					<IxLevel>Local</IxLevel>
+					<PartitionType>Static</PartitionType>
+					<IxPartitionStrategy>Range</IxPartitionStrategy>
+				</IxPartitions>
+			</TabIndx>
+			<TabIndx IxName="AR1_CHARGES_L9_6IX">
+				<IxType>Not Unique</IxType>
+				<ColinIx ColRef="ACCOUNT_ID" SortingOrder="ASC"/>
+				<ColinIx ColRef="PARTITION_ID" SortingOrder="ASC"/>
+				<ColinIx ColRef="PERIOD_KEY" SortingOrder="ASC"/>
+				<ColinIx ColRef="L9_PACKAGE_ID" SortingOrder="ASC"/>
+				<IxPartitions>
+					<IxLevel>Local</IxLevel>
+					<PartitionType>Static</PartitionType>
+					<IxPartitionStrategy>Range</IxPartitionStrategy>
+				</IxPartitions>
+			</TabIndx>
+		</TabIndxes>
+		<TabUpgrd LastUpdDate="2015-08-11 09:28:50">
+			<Upgrd CreDate="2014-10-28 12:54:30" UpdDate="2015-08-11 09:28:50" ModVer="v900">
+				<Renames>
+					<ColumnRename ColRef="L9_DEFERRAL_IND">
+						<History LastName="L9_ROLLOVER_IND" UpdDate="2014-10-28 12:54:30"/>
+					</ColumnRename>
+					<TableRename>
+						<History LastName="L9_TCORP_COMP_CODE" UpdDate="2015-08-11 09:28:50"/>
+					</TableRename>
+				</Renames>
+			</Upgrd>
+			<Upgrd CreDate="2009-10-28 10:50:14" UpdDate="2011-07-26 09:13:47" ModVer="v750" FromVer="">
+				<UpgrdCol ColRef="L9_MOBILITY_AMT" UpdDate="2011-03-03 12:29:57">
+					<Type>Formula</Type>
+					<Value>0</Value>
+				</UpgrdCol>
+				<UpgrdCol ColRef="L9_UVERSE_AMT" UpdDate="2011-03-03 12:29:51">
+					<Type>Formula</Type>
+					<Value>0</Value>
+				</UpgrdCol>
+				<UpgrdCol ColRef="L9_BUNDLE_ID" UpdDate="2011-07-26 09:13:47">
+					<Type>Constant</Type>
+					<Approved>true</Approved>
+					<Value>&apos;0&apos;</Value>
+				</UpgrdCol>
+				<UpgrdCol ColRef="L9_UVERSE_TAX_AMT" UpdDate="2011-03-03 12:29:43">
+					<Type>Formula</Type>
+					<Value>0</Value>
+				</UpgrdCol>
+				<UpgrdCol ColRef="L9_MOBILITY_TAX_AMT" UpdDate="2011-03-03 12:29:36">
+					<Type>Formula</Type>
+					<Value>0</Value>
+				</UpgrdCol>
+				<UpgrdCol ColRef="L9_EXT_CHARGE_ID" UpdDate="2011-04-27 15:08:49">
+					<Type>Constant</Type>
+					<Value>&apos; &apos;</Value>
+				</UpgrdCol>
+				<UpgrdCol ColRef="L9_DEPOSIT_ID" UpdDate="2011-03-03 13:01:48">
+					<Type>Formula</Type>
+					<Value>0</Value>
+				</UpgrdCol>
+			</Upgrd>
+		</TabUpgrd>
+	</Table>
+<!--checkSum:3640343539-->

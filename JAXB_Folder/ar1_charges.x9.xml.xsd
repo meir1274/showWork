@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="Table">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="TabMetaData"/>
+        <xs:element ref="TabColumns"/>
+        <xs:element ref="TabIndxes"/>
+        <xs:element ref="TabUpgrd"/>
+      </xs:sequence>
+      <xs:attribute name="TabStructLastUpdDate" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TabMetaData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="TabBasics"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TabBasics">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ExtendableInd"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ExtendableInd" type="xs:boolean"/>
+  <xs:element name="TabColumns">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="Column"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Column">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ColBasics"/>
+        <xs:element minOccurs="0" ref="ColDocs"/>
+        <xs:element ref="ColAuditData"/>
+      </xs:sequence>
+      <xs:attribute name="ColName" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ColBasics">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ColType"/>
+        <xs:choice minOccurs="0">
+          <xs:element ref="ColDisplayName"/>
+          <xs:element ref="Mandatory"/>
+        </xs:choice>
+        <xs:element ref="Customizable"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ColType">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="DmidRef"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DmidRef">
+    <xs:complexType>
+      <xs:attribute name="RefName" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ColDisplayName" type="xs:string"/>
+  <xs:element name="Mandatory" type="xs:boolean"/>
+  <xs:element name="Customizable" type="xs:boolean"/>
+  <xs:element name="ColDocs">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ColDescrip"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ColDescrip" type="xs:string"/>
+  <xs:element name="ColAuditData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ColCreDate"/>
+        <xs:element ref="ColCreTime"/>
+        <xs:element ref="CreatedByBB"/>
+        <xs:element ref="CreatedInVersion"/>
+        <xs:element ref="ColSeqOrder"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ColCreDate" type="xs:date"/>
+  <xs:element name="ColCreTime" type="xs:time"/>
+  <xs:element name="CreatedByBB" type="xs:NCName"/>
+  <xs:element name="CreatedInVersion" type="xs:NCName"/>
+  <xs:element name="ColSeqOrder" type="xs:integer"/>
+  <xs:element name="TabIndxes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="TabIndx"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TabIndx">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="IxType"/>
+        <xs:element minOccurs="0" ref="IxDescrip"/>
+        <xs:element maxOccurs="unbounded" ref="ColinIx"/>
+        <xs:element ref="IxPartitions"/>
+      </xs:sequence>
+      <xs:attribute name="IxName" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IxType" type="xs:string"/>
+  <xs:element name="IxDescrip" type="xs:string"/>
+  <xs:element name="ColinIx">
+    <xs:complexType>
+      <xs:attribute name="ColRef" use="required" type="xs:NCName"/>
+      <xs:attribute name="SortingOrder" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IxPartitions">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="IxLevel"/>
+        <xs:element ref="PartitionType"/>
+        <xs:element ref="IxPartitionStrategy"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IxLevel" type="xs:NCName"/>
+  <xs:element name="PartitionType" type="xs:NCName"/>
+  <xs:element name="IxPartitionStrategy" type="xs:NCName"/>
+  <xs:element name="TabUpgrd">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="Upgrd"/>
+      </xs:sequence>
+      <xs:attribute name="LastUpdDate" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Upgrd">
+    <xs:complexType>
+      <xs:choice>
+        <xs:element ref="Renames"/>
+        <xs:element maxOccurs="unbounded" ref="UpgrdCol"/>
+      </xs:choice>
+      <xs:attribute name="CreDate" use="required"/>
+      <xs:attribute name="FromVer"/>
+      <xs:attribute name="ModVer" use="required" type="xs:NCName"/>
+      <xs:attribute name="UpdDate" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Renames">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ColumnRename"/>
+        <xs:element ref="TableRename"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ColumnRename">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="History">
+          <xs:attribute name="ColRef" use="required" type="xs:NCName"/>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TableRename" type="History"/>
+  <xs:element name="UpgrdCol">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Type"/>
+        <xs:element minOccurs="0" ref="Approved"/>
+        <xs:element ref="Value"/>
+      </xs:sequence>
+      <xs:attribute name="ColRef" use="required" type="xs:NCName"/>
+      <xs:attribute name="UpdDate" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Type" type="xs:NCName"/>
+  <xs:element name="Approved" type="xs:boolean"/>
+  <xs:element name="Value" type="xs:string"/>
+  <xs:complexType name="History">
+    <xs:sequence>
+      <xs:element ref="History"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="History">
+    <xs:complexType>
+      <xs:attribute name="LastName" use="required" type="xs:NCName"/>
+      <xs:attribute name="UpdDate" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
